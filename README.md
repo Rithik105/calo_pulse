@@ -19,7 +19,7 @@ State Management
 
 Provider: Simple and well-suited for the scale of this app.
 
-Storage
+####Storage
 
 firebase_auth: To handle authentication methods like magic link and email/password login.
 
@@ -29,7 +29,7 @@ hive / hive_flutter: For fast and encrypted local storage of calorie entries.
 
 flutter_secure_storage: To securely store sensitive data like encryption keys and user info.
 
-Utilities
+####Utilities
 
 app_links: For handling deep linking with email magic links.
 
@@ -39,14 +39,11 @@ connectivity_plus: To detect internet connectivity and handle offline/online syn
 
 ## 3. Chosen Tradeoffs
 
-Push Notifications Not Implemented
-Firebase Cloud Functions require the Blaze (paid) plan for deployment, so push notifications were not included to keep the project free-tier compatible.
+Push Notifications Not Implemented : Firebase Cloud Functions require the Blaze (paid) plan for deployment, so push notifications were not included to keep the project free-tier compatible.
 
-Provider Instead of Bloc or Riverpod
-Provider was chosen for its simplicity and faster implementation since the app scope is small.
+Provider Instead of Bloc or Riverpod : Provider was chosen for its simplicity and faster implementation since the app scope is small.
 
-Minimal UX Focus
-Priority was on functionality, clean architecture, state handling, and offline-first safety. UI is functional but minimal.
+Minimal UX Focus : Priority was on functionality, clean architecture, state handling, and offline-first safety. UI is functional but minimal.
 
 ## 4. WebSocket Implementation
 
