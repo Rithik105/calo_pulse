@@ -8,6 +8,7 @@
 - Android Studio / Xcode (for mobile development)
 
 ### Steps
+```bash
 git clone <repo-url>
 cd calo_pulse
 flutter pub get
