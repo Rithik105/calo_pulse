@@ -14,7 +14,7 @@ git clone <repo-url>
 cd calo_pulse
 flutter pub get
 ```
-2. Packages Used & Why
+## 2. Packages Used & Why
 State Management
 
 Provider: Simple and well-suited for the scale of this app.
@@ -37,7 +37,7 @@ uuid: For generating unique IDs for calorie entries.
 
 connectivity_plus: To detect internet connectivity and handle offline/online syncing.
 
-3. Chosen Tradeoffs
+## 3. Chosen Tradeoffs
 
 Push Notifications Not Implemented
 Firebase Cloud Functions require the Blaze (paid) plan for deployment, so push notifications were not included to keep the project free-tier compatible.
@@ -48,7 +48,7 @@ Provider was chosen for its simplicity and faster implementation since the app s
 Minimal UX Focus
 Priority was on functionality, clean architecture, state handling, and offline-first safety. UI is functional but minimal.
 
-4. WebSocket Implementation
+## 4. WebSocket Implementation
 
 Real-time updates are achieved using Firebase Cloud Firestore’s snapshot listeners.
 
