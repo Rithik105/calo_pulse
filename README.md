@@ -15,11 +15,11 @@ cd calo_pulse
 flutter pub get
 ```
 ## 2. Packages Used & Why
-State Management
+###State Management
 
 Provider: Simple and well-suited for the scale of this app.
 
-####Storage
+####=Storage
 
 firebase_auth: To handle authentication methods like magic link and email/password login.
 
@@ -29,7 +29,7 @@ hive / hive_flutter: For fast and encrypted local storage of calorie entries.
 
 flutter_secure_storage: To securely store sensitive data like encryption keys and user info.
 
-####Utilities
+###Utilities
 
 app_links: For handling deep linking with email magic links.
 
