@@ -10,7 +10,7 @@
 ```markdown
 ### Installation
 ```bash
-git clone <repo-url>
+git clone https://github.com/Rithik105/calo_pulse.git
 cd calo_pulse
 flutter pub get
 ```
