@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601705661315",
+    "project_id": "calopulse",
+    "storage_bucket": "calopulse.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601705661315:android:9db88f0bff11b064776cb6",
+        "android_client_info": {
+          "package_name": "com.example.calo_pulse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHUf4q-BYMemjxzf-gY5fXh6si-O1N3VA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

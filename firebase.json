@@ -1,0 +1,45 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "calopulse",
+          "appId": "1:601705661315:android:9db88f0bff11b064776cb6",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "calopulse",
+          "appId": "1:601705661315:ios:1f2823508d070f3b776cb6",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "calopulse",
+          "configurations": {
+            "android": "1:601705661315:android:9db88f0bff11b064776cb6",
+            "ios": "1:601705661315:ios:1f2823508d070f3b776cb6",
+            "web": "1:601705661315:web:3dfa99d0e41cd1cb776cb6"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
